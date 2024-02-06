@@ -9,7 +9,7 @@ html {
   }
 
   .container{
-    margin: 0px 32px;
+    margin: 0px 16px;
   }
 
   .top-bar{
@@ -73,4 +73,47 @@ html {
   .all-selections-dynamic{
     display: flex;
   }
-  
+
+  .side-bar-middle-bar-mix{
+    display: flex;
+  }
+
+  .all{
+    padding: 0px 8px;
+    white-space: nowrap;
+  }
+
+  .all p{
+    margin: 0px;
+    padding: 8px;
+    background-color: #efefef;
+    border-radius: 8px;
+  }
+
+  .side-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+
+  .icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icons p{
+    font-size: small;
+  }
+
+  .home{
+    padding: 24px 16px;
+  }
+
+  .icons img{
+    width: 24px;
+    height: 24px;
+  }
+
+ 
