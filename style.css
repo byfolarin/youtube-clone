@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .container{
+    margin: 0px 32px;
+  }
+
+  .top-bar{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo-hamburger-youtube-logo{
+    display: flex;
+  }
+
+  .search-container{
+    display: flex;
+  }
+
+  .search-icon-voice{
+    display: flex;
+    align-items: center;
+  }
+  
+  .mast-head{
+    display: flex;
+    align-items: center;
+  }
+
+  .icon{
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+  }
+
+  .youtube-logo{
+    width: 90px;
+    height: 20px;
+    padding: 18px 16px;
+  }
+
+  .search-bar img{
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+  }
+
+  .voice-search{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: gainsboro;
+  }
+
+  .voice-search img{
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+  }
+
+  .create-notification-profile-icon{
+    display: flex;
+  }
+
+  .all-selections-dynamic{
+    display: flex;
+  }
+  
