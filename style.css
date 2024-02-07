@@ -15,6 +15,7 @@ html {
   .top-bar{
     display: flex;
     justify-content: space-between;
+    padding: 4px 0px;
   }
 
   .logo-hamburger-youtube-logo{
@@ -47,15 +48,25 @@ html {
     padding: 18px 16px;
   }
 
+  .search-bar{
+    display: flex;
+    align-items: center;
+  }
+
   .search-bar img{
     width: 24px;
     height: 24px;
-    padding: 8px;
+  }
+
+  .search{
+    padding: 8px 167px 8px 16px;
+    border-radius: 60px;
+    border: solid gainsboro;
   }
 
   .voice-search{
-    width: 40px;
-    height: 40px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     color: gainsboro;
   }
@@ -63,7 +74,6 @@ html {
   .voice-search img{
     width: 24px;
     height: 24px;
-    padding: 8px;
   }
 
   .create-notification-profile-icon{
