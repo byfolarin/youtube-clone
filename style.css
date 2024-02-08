@@ -131,10 +131,11 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 14px 0px 24px 0px;
   }
 
   .icons p{
-    font-size: 12px;
+    font-size: 10px;
   }
 
 
@@ -147,5 +148,25 @@ html {
     margin: 0px;
     padding: 0px;
   }
+
+  .home img{
+    padding: 4px 0px;
+  }
+
+
+
+  .shorts img{
+    padding: 4px 0px;
+  }
+
+  .subscriptions img{
+    padding: 4px 0px;
+  }
+
+  .you img{
+    padding: 4px 0px;
+  }
+
+
 
  
