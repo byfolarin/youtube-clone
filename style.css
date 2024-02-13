@@ -2,6 +2,8 @@
 
 html {
     scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
   }
 
   body{
@@ -9,6 +11,8 @@ html {
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+  
   }
 
   .container{
@@ -167,6 +171,122 @@ html {
     padding: 4px 0px;
   }
 
+  .main-section{
+    max-width: 100%; /* or any value less than 100% to create some padding */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 20px; /* Optional: Add padding to the container */
+}
 
 
+  .grid-container{
+    display: flex;
+    gap: 16px;
+    padding-top: 24px;
+    align-items: center;
+  }
+
+  .first-section{
+    width: 388px;
+    height: auto;
+  }
+
+  .second-section{
+    width: 388px;
+    height: auto;
+  }
+
+  .third-section{
+    width: 388px;
+    height: auto;
+  }
+
+ .img-selections{
+  width: 388px;
+  height: 218px;
+ }
+
+ .img-selections img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 8px;
+  }
+
+  .profile-click{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+  }
+
+.profile-click img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
  
+.bottom-sections{
+  display: flex;
+  padding-top: 16px;
+  gap: 10px;
+}
+
+.top-bottom-section{
+  margin: 16px 0px;
+}
+
+/* Corrected CSS */
+
+
+.img-selections img,
+.bottom-sections,
+.top-bottom-section,
+.profile-click,
+.second-bottom-section,
+.views,
+.days,
+.video.title, 
+.channel-name, 
+.video.views, 
+.video.days 
+{
+  margin: 0;
+}
+
+/* Style for video title */
+.video.title { /* Corrected class name */
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 450;
+  overflow: hidden;
+}
+
+/* Style for channel name */
+.channel-name { /* Corrected class name */
+  font-size: 14px;
+  color: #707070;
+}
+
+/* Style for views and days */
+.views-days {
+  display: flex;
+  align-items: center;
+}
+
+.views {
+  font-size: 14px;
+  color: #707070;
+  margin: 0;
+}
+
+.full-stop {
+  margin: 0 4px; /* Adjust margin as needed */
+}
+
+.days {
+  font-size: 14px;
+  color: #707070;
+  margin: 0;
+}
+
+
